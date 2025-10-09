@@ -78,7 +78,29 @@ RMD Render Summary
 [SKIPPED] - ./FigureYa88DAVIDkappa/FigureYa88DAVIDkappa.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa130coxSVM/FigureYa130coxSVM_step12.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa2ggtree+pheatmap+msa/FigureYa2ggtree+pheatmap+msa.Rmd (Not listed in auto_Knit_online.txt)
-[SKIPPED] - ./FigureYa203ComBat/FigureYa203ComBat.Rmd (Not listed in auto_Knit_online.txt)
+[FAILED] - ./FigureYa203ComBat/FigureYa203ComBat.Rmd
+--- Error Log for ./FigureYa203ComBat/FigureYa203ComBat.Rmd ---
+Hit:7 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease
+Hit:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libblas-dev is already the newest version (3.12.0-3build1.1).
+liblapack-dev is already the newest version (3.12.0-3build1.1).
+gfortran is already the newest version (4:13.2.0-7ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 30 not upgraded.
+Error in `library()`:
+! there is no package called 'ClassDiscovery'
+Backtrace:
+    ▆
+ 1. └─global batchPCA(...)
+ 2.   └─base::library(ClassDiscovery)
+
+Quitting from FigureYa203ComBat.Rmd:266-299 [unnamed-chunk-6]
+Execution halted
+-----------------------------------
 [SKIPPED] - ./FigureYa304MAGIC/FigureYa304MAGIC_lowMemory.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa304MAGIC/FigureYa304MAGIC.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa48Adonis/FigureYa48Adonis.Rmd (Not listed in auto_Knit_online.txt)
@@ -280,7 +302,7 @@ RMD Render Summary
 [SKIPPED] - ./FigureYa255TIME/FigureYa255TIME.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa192breakpoint/FigureYa192breakpoint.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa294HCCdrug/FigureYa294HCCdrug.Rmd (Not listed in auto_Knit_online.txt)
-[SUCCESS] - ./FigureYa261circGene/FigureYa261circGene.Rmd
+[SKIPPED] - ./FigureYa261circGene/FigureYa261circGene.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa239ST_PDAC/FigureYa239ST_PDAC.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa244PCAPlot/FigureYa244PCAPlot.Rmd (Not listed in auto_Knit_online.txt)
 [SKIPPED] - ./FigureYa293machineLearning/FigureYa293machineLearning.Rmd (Not listed in auto_Knit_online.txt)
